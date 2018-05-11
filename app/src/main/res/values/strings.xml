@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HeightMeasure</string>
+    <string name="titleMainS">Measure heights with your phone!</string>
+    <string name="buttonMainS">Click here to start</string>
+    <string name="earth">Earth gravity</string>
+    <string name="moon">Moon gravity</string>
+    <string name="sun">Sun gravity</string>
+    <string name="new_throw">New throw</string>
+    <string name="throw_it">THROW IT!</string>
+</resources>

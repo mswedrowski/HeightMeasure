@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="styleGoToMeasureButton">
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:colorBackground">@color/mysilver</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:layout_width">100sp</item>
+    </style>
+
+    <style name="startMessageStyle">
+        <item name="android:background">#ffffff</item>
+    </style>
+
+</resources>

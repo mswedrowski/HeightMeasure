@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="neonOrange">#FD5F00</color>
+    <color name="dimGray">#696969</color>
+    <color name="white">#ffffff</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="mysilver">#c6c6c6</color>
+    <color name="text_shadow">#050505</color>
+</resources>

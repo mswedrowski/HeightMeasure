@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.swedr.zad4.MainActivity" >
+
+    <item
+        android:id="@+id/new_throw"
+        android:title="@string/new_throw"
+        app:showAsAction="never"/>
+
+        <group android:id="@+id/group_edit"
+            android:checkableBehavior="single">
+            <item android:id="@+id/earth"
+                android:icon="@mipmap/ic_earth"
+                android:title="@string/earth"
+                app:showAsAction="never"/>
+
+
+            <item android:id="@+id/moon"
+                android:icon="@mipmap/ic_moon"
+                android:title="@string/moon"
+                app:showAsAction="never"
+                />
+
+            <item android:id="@+id/sun"
+                android:icon="@mipmap/ic_sun"
+                android:title="@string/sun"
+                app:showAsAction="never"
+                >
+
+            </item>
+        </group>
+</menu>
