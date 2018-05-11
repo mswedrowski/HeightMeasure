@@ -146,9 +146,11 @@ public class MeasureActivity extends Activity implements SensorEventListener {
     public void calculateStageTwo(long stageTwoDuration, double acceleration)
     {
 
-
+        // FEEL FREE TO REMOVE IT
         if (stageTwoDuration > 2000)
             stageTwoDuration = 2000;                        // to prevent ridiculous time (reasons in descript at the top)
+        
+        
         height += Math.pow(acceleration * stageTwoDuration / 1000, 2) / (2 * gravity); // h=1/2*a*t^2
 
     }
